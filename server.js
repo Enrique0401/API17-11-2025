@@ -37,7 +37,9 @@ app.get("/", (req, res) => {
 app.use("/api/personajes", personajesRoutes);
 
 // Iniciar servidor
-const PORT = 8000;
+const PORT = 3000;
 app.listen(PORT, () =>
   console.log(`🔥 API Demon Slayer corriendo en http://localhost:${PORT}`)
 );
+
+export default app;
